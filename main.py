@@ -50,6 +50,9 @@ def get_strength_level(score):
 
 def main():
     st.title("🔐 Password Strength Meter")
+    st.markdown(
+        "##### Enter your password to see how strong it is and how you can improve it."
+    )
     password = st.text_input("Enter your password", type="password")
 
     if password:
